@@ -82,3 +82,35 @@ a.amos:hover {
 li {
   list-style: none;
 }
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 550px) {
+
+    p.name {
+        margin-bottom: 0;
+
+    }
+
+    p.info {
+
+        float:left;
+        font-size: 1.0em;
+        margin-bottom: 0.5em;
+
+    }
+
+    .img {
+      margin: 10px 10px 10px 0px;
+      border-left: 1px solid #222;
+      border-right: 1px solid #222;
+    }
+
+    p.details{
+      float: right;
+      font-size: 1.0em;
+      font-style: italic;
+      margin-top: 1.0rem;
+    }
+
+}
