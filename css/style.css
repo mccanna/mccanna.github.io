@@ -1,0 +1,84 @@
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+  font-family: Helvetica;
+  font-weight: 100;
+}
+
+.img {
+  margin: 25px;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+}
+
+img.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  vertical-align: center;
+}
+
+.borderbtm {
+  border-bottom: 1px solid #222;
+}
+
+.bordertop {
+  border-top: 1px solid #222;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+p.name {
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+}
+
+p.info {
+  float: right;
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+}
+
+p.details{
+  float: right;
+  font-size: 1.3em;
+  font-style: italic;
+  margin-top: 1.5rem;
+}
+
+a.about {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+}
+
+a.about:active {
+  color: #000;
+}
+
+a.about:hover {
+  color: #cd251f;
+}
+
+a.amos {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+a.amos:active {
+  color: #000;
+}
+
+a.amos:hover {
+  color: #cd251f;
+}
+
+li {
+  list-style: none;
+}
