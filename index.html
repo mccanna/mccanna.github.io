@@ -20,9 +20,11 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/responsive-nav.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <script src="js/responsive-nav.js"></script>
 
 
 </head>
@@ -36,23 +38,30 @@
         <!-- <h1 class='amos'>Amos Barshad</h1> -->
       </div>
     </div>
-    <div class="row">
-        <div class="twelve columns borderbtm">
-            <div class="eight columns">
-               <p class="name"> Mike Mi and Rachel Wolfson</p>
-            </div>
-            <div clas="four columns">
-                <p class="info"> June 4th, 2016 | Detroit, MI </p>
-            </div>
-        </div>
-        <div class="twelve columns img">
-            <img class='main' src="https://dl.dropboxusercontent.com/s/l4yolm3z6mbzpdw/main-image.png?dl=0">
-        </div>
-        <div class="twelve columns bordertop">
-            <p class='details'>Details coming soon!</p>
-        </div>
+    <div class="row twelve columns main">
+       <p class="name"> Mike Mi and Rachel Wolfson</p>
+       <p class="info">Saturday, June 4th, 2016</p>
+       <p class="info">Detroit Institute of Arts</p>
+    </div>
+    <div class="row twelve columns borderbtm">
+       <nav class="nav-collapse">
+             <ul class='nav'>
+                 <li><a class='nav' href="#">The Day</a></li>
+                 <li><a class='nav' href="#">Accomodations</a></li> 
+                 <li><a class='nav' href="#">To Do</a></li>
+                 <li><a class='nav' href="#">Registry</a></li>
+                 <li><a class='nav' href="#">Photos</a></li>
+             </ul>
+        </nav>
+    </div>
+    <div class="row twelve columns img ">
+        <img class='main-img' src="https://dl.dropboxusercontent.com/u/64501391/main.png">
     </div>
   </div>
+
+ <script>
+    var nav = responsiveNav(".nav-collapse");
+</script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
