@@ -13,7 +13,7 @@ body {
   border-right: 1px solid #222;
 }
 
-img.main {
+img.main-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -21,8 +21,13 @@ img.main {
   vertical-align: center;
 }
 
+.main {
+    margin-bottom: 40px;
+}
+
 .borderbtm {
   border-bottom: 1px solid #222;
+  border-top: 1px solid #222;
 }
 
 .bordertop {
@@ -34,14 +39,17 @@ p {
 }
 
 p.name {
-  font-size: 1.5em;
-  margin-bottom: 0.5rem;
+  font-size: 2.5em;
+  margin:0;
+  text-align: center;
 }
 
 p.info {
-  float: right;
-  font-size: 1.5em;
-  margin-bottom: 0.5rem;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1.3em;
 }
 
 p.details{
@@ -51,41 +59,27 @@ p.details{
   margin-top: 1.5rem;
 }
 
-a.about {
-  text-decoration: none;
-  color: #000;
-  font-size: 22px;
-}
-
-a.about:active {
-  color: #000;
-}
-
-a.about:hover {
-  color: #cd251f;
-}
-
-a.amos {
-  text-decoration: none;
-  color: #000;
-  font-size: 16px;
-}
-
-a.amos:active {
-  color: #000;
-}
-
-a.amos:hover {
-  color: #cd251f;
-}
-
 li {
-  list-style: none;
+  margin: 8px 10px 0px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9em;
 }
 
+a.nav {
+  text-decoration: none;
+}
+
+a.nav:hover {
+  border-bottom: 1px solid #000;
+}
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 640px) {
+
+    .nav-collapse ul {
+      display: block;
+    }
 
     p.name {
         margin-bottom: 0;
