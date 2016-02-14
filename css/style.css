@@ -9,8 +9,13 @@ body {
 
 .img {
   margin: 25px;
-  border-left: 1px solid #222;
-  border-right: 1px solid #222;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+.img-sm {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 img.main-img {
@@ -21,27 +26,64 @@ img.main-img {
   vertical-align: center;
 }
 
+img.img-small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  vertical-align: center;
+}
+
+.nav {
+  margin-bottom: 25px;
+}
+
 .main {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .borderbtm {
-  border-bottom: 1px solid #222;
-  border-top: 1px solid #222;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
 }
 
 .bordertop {
-  border-top: 1px solid #222;
+  border-top: 1px solid #999;
+  margin-top: 20px;
+}
+
+h3.list-heading {
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #999;
 }
 
 p {
   margin-bottom: 0.5rem;
 }
 
+p.day {
+  text-align: center;
+  margin: 0;
+}
+
+p.center {
+
+  max-width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+p.bold {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 p.name {
   font-size: 2.5em;
   margin:0;
   text-align: center;
+  line-height: 1.2em;
 }
 
 p.info {
@@ -52,6 +94,15 @@ p.info {
   line-height: 1.3em;
 }
 
+p.intro {
+  font-weight: bold;
+  margin: 0;
+}
+
+p.intro-text {
+  margin: 0;
+}
+
 p.details{
   float: right;
   font-size: 1.3em;
@@ -59,11 +110,21 @@ p.details{
   margin-top: 1.5rem;
 }
 
+ul.hotels-list {
+  margin: 0;
+}
+
 li {
   margin: 8px 10px 0px 0px;
   text-align: center;
   text-transform: uppercase;
   font-size: 0.9em;
+}
+
+li.hotels {
+  text-align: left;
+  text-transform: none;
+  font-size: 1.0em;
 }
 
 a.nav {
@@ -96,8 +157,8 @@ a.nav:hover {
 
     .img {
       margin: 10px 10px 10px 0px;
-      border-left: 1px solid #222;
-      border-right: 1px solid #222;
+      border-left: 1px solid #999;
+      border-right: 1px solid #999;
     }
 
     p.details{
