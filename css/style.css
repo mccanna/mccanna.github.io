@@ -8,7 +8,7 @@ body {
 }
 
 .img {
-  margin: 25px;
+  margin-top: 25px;
   border-left: 1px solid #999;
   border-right: 1px solid #999;
 }
@@ -16,6 +16,35 @@ body {
 .img-sm {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.img-day{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.btm {
+  margin-bottom: 25px;
+  font-size: 1.2em;
+}
+
+.top {
+  margin-top: 25px;
+  font-size: 1.2em;
+}
+
+.flex-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  border-bottom: 1px solid #999;
+}
+
+img.flex-img {
+  width: 30%;
+  height: 30%;
+  padding: 15px;
+  display: block;
 }
 
 img.main-img {
@@ -143,7 +172,8 @@ a.nav:hover {
     }
 
     p.name {
-        margin-bottom: 0;
+        margin-bottom: 5px;
+        font-size: 1.7em;
 
     }
 
@@ -151,14 +181,25 @@ a.nav:hover {
 
         float:left;
         font-size: 1.0em;
-        margin-bottom: 0.5em;
+        margin-bottom: 0.2em;
+        width: 100%;
+    }
 
+    p.center {
+      max-width: 100%;
     }
 
     .img {
-      margin: 10px 10px 10px 0px;
-      border-left: 1px solid #999;
-      border-right: 1px solid #999;
+      margin: 20px 0px 0px 0px;
+      border: none;
+    }
+
+    .img-day {
+      margin-top: 0;
+    }
+
+    .main {
+      margin-bottom: 10px;
     }
 
     p.details{
@@ -166,6 +207,30 @@ a.nav:hover {
       font-size: 1.0em;
       font-style: italic;
       margin-top: 1.0rem;
+    }
+
+    .flex-images {
+      margin: 0;
+    }
+
+    img.flex-img {
+      width: 95%;
+      height: 95%;
+      padding-top: 15px;
+      display: block;
+    }
+
+    img.img-small {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      vertical-align: center;
+    }
+
+    .borderbtm {
+      padding: 5px;
+      text-align: center;
     }
 
 }
