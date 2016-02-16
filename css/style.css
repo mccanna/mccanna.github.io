@@ -18,6 +18,11 @@ body {
   margin-bottom: 25px;
 }
 
+.img-smaller {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
 .img-day{
   margin-top: 25px;
   margin-bottom: 25px;
@@ -25,13 +30,12 @@ body {
 
 .btm {
   margin-bottom: 25px;
-  font-size: 1.2em;
 }
 
 .top {
   margin-top: 25px;
-  font-size: 1.2em;
 }
+
 
 .flex-images {
   display: flex;
@@ -79,12 +83,19 @@ img.img-small {
 .bordertop {
   border-top: 1px solid #999;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 h3.list-heading {
   font-size: 1.5em;
   padding-bottom: 5px;
   border-bottom: 1px solid #999;
+}
+
+h3.big-heading {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 p {
@@ -101,6 +112,14 @@ p.center {
   max-width: 60%;
   text-align: center;
   margin: 0 auto;
+}
+
+p.centered {
+
+  max-width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.1em;
 }
 
 p.bold {
@@ -125,11 +144,13 @@ p.info {
 
 p.intro {
   font-weight: bold;
-  margin: 0;
+  margin-top: 25px;
+  font-size: 1.5em;
 }
 
 p.intro-text {
   margin: 0;
+  font-size: 1.2em;
 }
 
 p.details{
@@ -186,6 +207,11 @@ a.nav:hover {
     }
 
     p.center {
+      max-width: 100%;
+    }
+
+    p.centered {
+
       max-width: 100%;
     }
 
