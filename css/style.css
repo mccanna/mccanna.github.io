@@ -82,7 +82,7 @@ img.img-small {
 
 .bordertop {
   border-top: 1px solid #999;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 
@@ -90,6 +90,13 @@ h3.list-heading {
   font-size: 1.5em;
   padding-bottom: 5px;
   border-bottom: 1px solid #999;
+}
+
+h3.shuttle-heading {
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #999;
+  margin-bottom: .5em;
 }
 
 h3.big-heading {
@@ -120,6 +127,29 @@ p.centered {
   text-align: center;
   margin: 0 auto;
   font-size: 1.1em;
+}
+
+p.centered-full{
+  max-width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+p.left {
+  max-width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+p.large-center {
+  max-width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 p.bold {
@@ -162,6 +192,12 @@ p.details{
 
 ul.hotels-list {
   margin: 0;
+}
+
+ul.no-bullet {
+  margin: 0;
+  margin-bottom: 40px;
+  list-style-type: none;
 }
 
 li {
